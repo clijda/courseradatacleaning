@@ -9,8 +9,8 @@ explains how all of the scripts work and how they are connected
 
 * Reading data
   - the script starts by reading the 2 datasets (X_train and X_test)
-  - Also the corresponding activity and subject datasets are read (Y_train, Y_test, subject_train, subject_test)
-  - Finally some help files are read (activity_labels, features)
+  - also the corresponding activity and subject datasets are read (Y_train, Y_test, subject_train, subject_test)
+  - finally some help files are read (activity_labels, features)
 * Modifying column names for the 2 datasets
   - the features list is made more tidy by removing special characters and putting everything lower case
   - the modified features list is assigned as names for the 2 datasets
