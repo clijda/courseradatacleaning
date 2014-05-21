@@ -5,7 +5,7 @@ this repo stores everything relatied to the project task on "Getting and cleanin
 
 explains how all of the scripts work and how they are connected
 
-only 1 script: run_analysis.R
+## explaining the script: run_analysis.R
 
 * Reading data
   - the script starts by reading the 2 datasets (X_train and X_test)
@@ -18,7 +18,7 @@ only 1 script: run_analysis.R
   - merge subjects, activity labels and activity descriptions with the train and test datasets
   - merge training and testing datasets
 * Subset data to only keep the Mean and Std features
-* Create datset that collects the averages of all features per subject and activity
+* Create dataset that collects the averages of all features per subject and activity
 * Write the 2 resulting datasets (TidyData & AvgData) to csv files
 
 
